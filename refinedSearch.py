@@ -7,10 +7,10 @@ from tweepy import Stream
 from textblob import TextBlob
 
 
-access_token = "922706023-Cy2i1lN7Yo29vFbLIfcNvzGiGrt4iuHGi2LK7oSZ"
-access_token_secret = "YfTTcTsoMv5AsZ1JEjoFNcRzVFCl99U0pVv88Ggg3uQSi"
-consumer_key = "4qKSiJnzn02TqvC0vgsKNwNjV"
-consumer_secret = "6THsxXRQcs3nCSacMRPeTl1EJn9qXdZo1RKZK6dAmhZFxapFcD"
+access_token = "N/A"
+access_token_secret = "N/A"
+consumer_key = "N/A"
+consumer_secret = "N/A"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
